@@ -36,12 +36,38 @@
                 rgba(47, 48, 58, 0.4)),
             url('../images/hero-background/background-img.jpg');
         background-size: cover;
+       
         background-repeat: no-repeat;
         overflow: auto;
             padding-top: 200px;
-            padding-bottom: 208px;
+            padding-bottom: 280px;
+            //   padding-left: 452px;
+            //     padding-right: 452px;
         
     }
+    .main-header{
+    height: 120px;
+    width: 696px;
+    font-size: 44px;
+    line-height: 1.364;
+    // margin-left: auto;
+    // margin-right: auto;
+text-align: center;}
+    //  .main-header {
+      
+    //     font-weight: 900;
+    //     font-size: 44px;
+    // line-height: 1.364;
+    // text-align: center;
+    //     letter-spacing: 0.06em;
+    //     text-transform: uppercase;
+    //     color: $white-color;
+    //      margin-left: auto;
+    //      margin-right: auto;
+    //       width: 696px;
+    //     //   height: 120px;
+        
+    //      }
 }
 
 
