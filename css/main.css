@@ -45,35 +45,31 @@ img {
 }
 
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
-  align-items: center;
-  margin: 0 auto;
+  width: 100%;
+  padding: 0 10px;
 }
 
-.hero .container {
-  height: 400px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  margin: 0 auto;
-}
-
-.header .container {
-  display: flex;
-  justify-content: space-between;
-  height: 80px;
-}
-
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 480px) {
   .container {
-    width: 100vw;
+    max-width: 480px;
+  }
+  .hero .container {
+    padding-bottom: 108px;
   }
 }
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 39px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    padding: 0 15px;
+  }
 }
 
 .backdrop {
@@ -105,12 +101,7 @@ img {
   border-radius: 4px;
   cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-.hero__btn {
-  padding: 10px 41px;
-  margin-top: 30px;
-  margin-bottom: 118px;
+  display: block;
 }
 
 .newsletter__btn {
@@ -351,22 +342,26 @@ img {
 
 .hero {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-background/hero-bg-mobile.jpg");
-  background-repeat: no-repeat;
-  background-size: 480px 400px;
   background-size: cover;
+  background-size: 480px 400px;
 }
 
-.main-header {
+.hero__main-header {
   font-weight: 900;
   font-size: 26px;
   line-height: 1.615;
   text-align: center;
-  width: 365px;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #fff;
   padding-top: 118px;
-  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.hero__btn {
+  margin: 30px auto 0 auto;
+  display: block;
+  padding: 10px 30px;
 }
 
 @media screen and (min-width: 768px) {
