@@ -17,7 +17,8 @@
 .hero__btn{
      margin: 30px auto 0 auto;
      padding: 10px 30px;
-  
+  max-width: 100%;
+  overflow-x: hidden;
 }
 // .hero__btn{
 //     margin: 30px auto 0 auto;

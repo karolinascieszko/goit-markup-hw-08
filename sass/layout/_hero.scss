@@ -7,13 +7,15 @@
     background-size: cover;
     // background-size: 480px 400px;
     background-repeat: no-repeat;
-    overflow: auto;
+     margin: 0 auto;
+max-width: 100%;
+overflow-x: hidden;
         padding-top: 118px;
         padding-bottom: 118px;
     
 }
 
-}
+ }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
     .hero {
@@ -22,7 +24,8 @@
             url('../images/hero-background/hero-bg-tablet.jpg');
         background-size: cover;
         background-repeat: no-repeat;
-        overflow: auto;
+     max-width: 100%;
+     overflow-x: hidden;
             padding-top: 118px;
             padding-bottom: 118px;
         }
@@ -38,7 +41,7 @@
         background-size: cover;
        
         background-repeat: no-repeat;
-        overflow: auto;
+        
             padding-top: 200px;
             padding-bottom: 280px;
             //   padding-left: 452px;
@@ -46,13 +49,15 @@
         
     }
     .main-header{
-    height: 120px;
-    width: 696px;
+     height: 120px;
+     width: 696px;
     font-size: 44px;
     line-height: 1.364;
-    // margin-left: auto;
-    // margin-right: auto;
-text-align: center;}
+    margin-left: auto;
+    margin-right: auto;
+text-align: center;
+
+  }
     //  .main-header {
       
     //     font-weight: 900;
