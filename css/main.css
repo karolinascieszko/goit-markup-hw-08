@@ -49,16 +49,9 @@ img {
   padding: 0 10px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .container {
-    max-width: 480px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 0 15px;
+    margin: 0 auto;
   }
 }
 
@@ -289,13 +282,15 @@ img {
 }
 
 .main-header {
+  height: 84px;
+  width: 365px;
   font-weight: 900;
   font-size: 26px;
   line-height: 1.615;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #fff;
+  width: 100%;
+  text-align: center;
 }
 
 .social {
@@ -359,48 +354,28 @@ img {
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+.hero {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-background/hero-bg-mobile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: auto;
+  background-position: center top;
+  padding-top: 118px;
+  padding-right: 43px;
+  padding-bottom: 118px;
+  padding-left: 43px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .hero {
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-background/hero-bg-mobile.jpg");
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-background/hero-bg-tablet.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-size: 480px 400px;
-    background-position: center top;
-    padding-top: 118px;
-    padding-right: 43px;
-    padding-bottom: 118px;
-    padding-left: 43px;
-    margin-bottom: 40px;
-  }
-}
-
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
-  .hero {
-    background-image: url("../images/hero-background/hero-bg-tablet@2x.jpg");
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .hero {
-    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-background/hero-bg-tablet.jpg");
-    background-size: 768px 400px;
-    background-repeat: no-repeat;
-    background-position: center top;
-    padding-top: 119px;
+    overflow: auto;
     padding-right: 186px;
-    padding-bottom: 118px;
     padding-left: 186px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .hero {
-    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-background/background-img.jpg");
-    background-size: 1600px 600px;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding-top: 200px;
-    padding-bottom: 280px;
+    padding-top: 118px;
+    padding-bottom: 118px;
   }
   .main-header {
     font-weight: 900;
@@ -410,8 +385,47 @@ img {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #fff;
-    align-items: center;
     margin-bottom: 40px;
+    width: 696px;
+    height: 120px;
+    margin: 0 auto;
+    flex-grow: 1;
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
+  .hero {
+    background-image: url("../images/hero-background/hero-bg-tablet@2x.jpg");
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-background/background-img.jpg");
+    background-size: 1600px 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 200px;
+    padding-right: 452px;
+    padding-left: 452px;
+    padding-bottom: 280px;
+    margin: 0 auto;
+  }
+  .main-header {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 40px;
+    width: 696px;
+    height: 120px;
+    margin: 0 auto;
+    flex-grow: 1;
   }
 }
 

@@ -2,9 +2,10 @@
     width: 100%;
     padding: 0 10px;}
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
    .container {
-       max-width: 480px;
+    //    width: 768px;
+       margin: 0 auto;
     //    padding: 0 15px;
 //     .hero & {
 //     // //     //    height: 400px;
@@ -18,12 +19,12 @@
    }
      }
 
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
-        padding: 0 15px;
-    }
-}
+// @media screen and (min-width: 768px) {
+//     .container {
+//         max-width: 768px;
+//         padding: 0 15px;
+//     }
+// }
 
 @media screen and (min-width: 1200px) {
     .container {
