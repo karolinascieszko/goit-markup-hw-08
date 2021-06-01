@@ -1,5 +1,13 @@
+
+
+
 .about-us {
     padding-bottom: 94px;
+    display: none;
+}
+.about-us .container{
+    display: flex;
+    flex-direction: column;
 }
 
 .about {
@@ -31,4 +39,10 @@
     color: $white-color;
     z-index: 1;
     margin-bottom: 0;
+}
+@media screen and (min-width: 1200px) {
+    .about-us {
+        display: flex;
+       
+    }
 }
