@@ -135,16 +135,6 @@ img {
   margin: 0 auto;
 }
 
-.secondary-header {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.167;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  margin-bottom: 50px;
-}
-
 .modal {
   position: absolute;
   top: 50%;
@@ -550,6 +540,16 @@ img {
   flex-direction: column;
 }
 
+.secondary-header {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.189;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 30px;
+}
+
 .team {
   display: flex;
   flex-wrap: wrap;
@@ -602,6 +602,15 @@ img {
 }
 
 @media screen and (min-width: 1200px) {
+  .secondary-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.167;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+  }
   .team {
     display: flex;
     flex-wrap: nowrap;
@@ -616,25 +625,35 @@ img {
   }
 }
 
+.customers .container {
+  display: flex;
+  flex-direction: column;
+}
+
 .clients {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
 }
 
 .clients__logo {
   display: flex;
+  margin-right: 15px;
+  margin-bottom: 15px;
   width: 170px;
   height: 92px;
   background-color: #fff;
   fill: #afb1b8;
   border: 1px solid #afb1b8;
-  border-radius: 10%;
+  border-radius: 4px;
   align-items: center;
   justify-content: center;
   transition-property: fill, border-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  width: 210px;
+  height: 92px;
 }
 
 .clients__logo:hover, .clients__logo:focus {
@@ -645,6 +664,25 @@ img {
 .clients__icon {
   width: 106px;
   height: 60px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .clients__logo {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .clients {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .clients__logo {
+    width: 170px;
+    height: 92px;
+  }
 }
 
 .footer {
