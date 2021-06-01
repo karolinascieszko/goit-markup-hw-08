@@ -168,17 +168,23 @@
         </div>
       </section>
       <!---------our team-------------->
-      <!-- <section class="our-team section">
+      <section class="our-team section">
         <div class="container">
           <h2 class="secondary-header">Nasz zespół</h2>
           <ul class="team list">
             <li class="team__item">
               <img
-                class="team__photo"
+                  class="team__photo"
                 src="./images/team/team-img1.jpg"
+                srcset="./images/team/team-img1.jpg 270w,
+                ./images/team/team-img1-tablet.jpg 354w,
+                ./images/team/team-img1-mobile.jpg 450w
+                "
+                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 100vw
                 alt="Zdjęcie przedstawiające John Doe Product Designer"
-                width="270"
-                height="260"
+                
+
+              
               />
               <h3 class="team__name">John Doe</h3>
               <p class="team__job">Product Designer</p>
@@ -338,7 +344,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-------our clients--------------->
       <!-- <section class="customers section">
         <div class="container">
