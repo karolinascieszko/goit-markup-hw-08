@@ -929,9 +929,6 @@ img {
     display: flex;
     flex-direction: column;
   }
-  .newsletter {
-    margin-left: 70px;
-  }
   .newsletter__header {
     font-weight: 700;
     font-size: 14px;
@@ -945,7 +942,9 @@ img {
   .newsletter__input {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    margin-top: -20px;
   }
   .newsletter__email {
     background: transparent;
