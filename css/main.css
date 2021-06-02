@@ -238,6 +238,11 @@ img {
   letter-spacing: 0.01em;
 }
 
+.form__textarea:focus {
+  outline: none;
+  border-color: #2196f3;
+}
+
 .form__textarea::placeholder {
   font-size: 12px;
   line-height: 1.167;
@@ -1350,5 +1355,27 @@ img {
 
 .projects__item:hover .overlay {
   transform: translatey(0);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  .box {
+    width: 354px;
+    height: 294px;
+  }
+}
+
+.projects__item {
+  margin-left: 15px;
+  text-align: left;
+}
+
+.overlay__text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */

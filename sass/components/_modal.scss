@@ -104,6 +104,10 @@
       font-size: 12px;
       line-height: 1.167;
       letter-spacing: 0.01em;
+       &:focus {
+           outline: none;
+           border-color: $main-color;
+       }
        &::placeholder {
            font-size: 12px;
            line-height: 1.167;
