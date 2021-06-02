@@ -1360,7 +1360,7 @@ img {
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
   }
   .box {
     width: 354px;
@@ -1370,12 +1370,25 @@ img {
 
 .projects__item {
   margin-left: 15px;
-  text-align: left;
 }
 
 .overlay__text {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  .box {
+    width: 370px;
+    height: 294px;
+  }
+  .cards {
+    margin-bottom: 94px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

@@ -135,13 +135,9 @@
 @media screen and (min-width: 768px) and (max-width: 1199px){
     .container{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
-    // .buttons{
-    //     display: flex;
-    //     justify-content: center;
-    //     align-items: center;
-    // }
+ 
 
     .box{
         width:354px;
@@ -160,7 +156,7 @@
 // justify-content: space-around;
 //    flex-wrap: wrap;
 margin-left: 15px;
-text-align: left;
+// text-align: left;
 
 }
 .overlay__text{
@@ -171,6 +167,32 @@ text-align: left;
     margin-left: auto;
     margin-right: auto;
    width: 100%;
+
+}
+
+@media screen and (min-width: 1200px){
+
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+
+      .box {
+          width: 370px;
+          height: 294px;
+
+      }
+      .cards {
+          margin-bottom: 94px;
+      }
+
+    //   .projects {
+    //       display: flex;
+    //       justify-content: space-between;
+    //       align-items: center;
+    //       flex-wrap: wrap;
+    //       margin-top: 34px;
+    //   }
 
 }
 // .box {
