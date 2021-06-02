@@ -585,6 +585,24 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .mobile-btn {
+    display: none;
+  }
+  .header {
+    height: 80px;
+  }
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+  }
+  .menu {
+    display: flex;
+  }
+}
+
 .hero {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero-background/hero-bg-mobile.jpg");
   background-size: cover;
