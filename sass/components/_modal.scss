@@ -172,15 +172,25 @@
 
 // MOBILE
 .mobile-menu {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    // width: 100%;
     // width: 480px;
-    min-height: 796px;
+    // min-height: 796px;
+    width: 100vw;
+    height: 796px;
     background-color: $white-color;
     border-radius: 4px;
-    padding: 40px;
+    padding-left: 40px;
+    padding-bottom: 100px;
+       transition-property: opacity, visibility;
+    transition-duration: 600ms;
+    transition-timing-function: linear;
 }
 
