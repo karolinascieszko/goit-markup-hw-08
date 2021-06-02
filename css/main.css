@@ -469,10 +469,6 @@ img {
 }
 
 .contact {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-left: auto;
   display: none;
 }
 
@@ -564,6 +560,29 @@ img {
   fill: #2196f3;
   outline: none;
   cursor: pointer;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .logo {
+    margin-right: 83px;
+  }
+  .header {
+    height: 80px;
+  }
+  .menu {
+    display: flex;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact__item:first-child {
+    margin-bottom: 10px;
+  }
+  .mobile-btn {
+    display: none;
+  }
 }
 
 .hero {
