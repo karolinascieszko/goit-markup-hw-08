@@ -167,6 +167,12 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .logo--dark-theme {
+    margin-right: 80px;
+  }
+}
+
 .modal {
   position: absolute;
   top: 50%;
@@ -177,6 +183,7 @@ img {
   background-color: #fff;
   border-radius: 4px;
   padding: 40px;
+  width: 100vw;
 }
 
 .close-btn {
@@ -516,6 +523,7 @@ img {
 }
 
 .menu {
+  margin-left: 93px;
   display: none;
 }
 
