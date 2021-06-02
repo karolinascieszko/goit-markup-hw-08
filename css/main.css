@@ -289,6 +289,21 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    min-height: 581px;
+  }
+  .form__link {
+    font-size: 14px;
+    line-height: 1.714;
+  }
+  .form__statement {
+    font-size: 14px;
+    line-height: 1.714;
+  }
+}
+
 .main-header {
   font-weight: 900;
   font-size: 26px;
