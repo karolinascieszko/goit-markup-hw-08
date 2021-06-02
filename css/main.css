@@ -557,7 +557,13 @@ img {
   border: none;
   display: inline-block;
   margin-right: 10px;
-  padding: 0;
+  fill: black;
+}
+
+.mobile-btn:hover {
+  fill: #2196f3;
+  outline: none;
+  cursor: pointer;
 }
 
 .hero {

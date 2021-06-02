@@ -209,9 +209,11 @@ color: $main-font-color;
     border: none;
     display: inline-block;
     margin-right: 10px;
-    padding: 0;
-    // margin-left: 276px;
-//    display: flex;
-//    align-items: center;
-// justify-content: center;
+   fill: black;
+&:hover{
+   fill: $main-color;
+   outline: none;
+   cursor: pointer;
+
+}
 }
