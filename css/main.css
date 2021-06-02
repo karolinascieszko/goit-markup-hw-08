@@ -387,6 +387,11 @@ img {
   margin-left: 70px;
 }
 
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .menu__item {
   margin-right: 46px;
 }
@@ -545,6 +550,14 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: #2196f3;
+}
+
+.mobile-btn {
+  background-color: transparent;
+  border: none;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 0;
 }
 
 .hero {

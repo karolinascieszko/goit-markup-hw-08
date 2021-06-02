@@ -24,6 +24,10 @@
 // .logo--light-theme {
 //     color: $main-font-color;
 // }
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
 .menu__item {
     margin-right: 46px;
 }
@@ -96,6 +100,10 @@
     border: 1px solid #ececec;
     min-height: 60px;
     display: flex;
+    // flex-direction: row;
+    // justify-content: space-between;
+    // align-items: center;
+//    align-items: center;
 
 }
 
@@ -195,4 +203,15 @@ color: $main-font-color;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: $main-color;
+}
+.mobile-btn{
+    background-color: transparent;
+    border: none;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0;
+    // margin-left: 276px;
+//    display: flex;
+//    align-items: center;
+// justify-content: center;
 }
