@@ -134,8 +134,8 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 528px;
-  min-height: 581px;
+  width: 450px;
+  min-height: 609px;
   background-color: #fff;
   border-radius: 4px;
   padding: 40px;
@@ -151,6 +151,10 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
+}
+
+.close-btn:hover {
+  fill: #2196f3;
 }
 
 .form {
@@ -241,11 +245,6 @@ img {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form__textarea:focus {
-  outline: none;
-  border-color: #2196f3;
-}
-
 .form__checkbox {
   vertical-align: middle;
   position: relative;
@@ -261,15 +260,15 @@ img {
 }
 
 .form__link {
-  font-size: 14px;
-  line-height: 1.714;
+  font-size: 12px;
+  line-height: 1.167;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
 
 .form__statement {
-  font-size: 14px;
-  line-height: 1.714;
+  font-size: 12px;
+  line-height: 1.167;
   letter-spacing: 0.03em;
   color: #757575;
   display: flex;
@@ -925,6 +924,7 @@ img {
     margin-left: -70px;
   }
   .social-links {
+    margin-right: 76px;
     align-items: center;
     display: flex;
     flex-direction: column;
