@@ -1021,30 +1021,6 @@ img {
   color: #fff;
 }
 
-.social {
-  display: flex;
-}
-
-.social__link {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  background-color: #fff;
-  fill: #afb1b8;
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  margin-left: 10px;
-  transition-property: fill, background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social__icon {
-  width: 20px;
-  height: 20px;
-}
-
 .social__header {
   font-size: 14px;
   line-height: 1.143;
@@ -1057,6 +1033,9 @@ img {
 
 .social__link--dark-theme {
   background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  transition-property: fill, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social__link--dark-theme:hover, .social__link--dark-theme:focus {
