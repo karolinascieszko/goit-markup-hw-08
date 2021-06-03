@@ -422,16 +422,6 @@ img {
   height: 20px;
 }
 
-.social__header {
-  font-size: 14px;
-  line-height: 1.143;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #fff;
-  margin-bottom: 20px;
-  padding-left: 10px;
-}
-
 .header .container {
   display: flex;
   justify-content: space-between;
@@ -982,7 +972,6 @@ img {
 
 @media screen and (min-width: 1200px) {
   .clients {
-    display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
