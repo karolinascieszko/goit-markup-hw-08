@@ -1137,14 +1137,12 @@ img {
 
 @media screen and (min-width: 1200px) {
   .footer .container {
-    display: flex;
     align-items: baseline;
     max-width: 1200px;
     justify-content: space-between;
     flex-direction: row;
   }
   .address {
-    padding-top: 20px;
     text-align: left;
     width: 246px;
     padding-left: 10px;
@@ -1154,6 +1152,9 @@ img {
   }
   .social__header {
     margin-right: 77px;
+  }
+  .social__item--modifier {
+    margin-right: 50px;
   }
   .newsletter__input {
     display: flex;
@@ -1170,9 +1171,6 @@ img {
   }
   .newsletter__header {
     text-align: left;
-  }
-  .social__item--modifier {
-    margin-right: 50px;
   }
 }
 
