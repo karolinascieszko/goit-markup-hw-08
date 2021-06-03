@@ -14,6 +14,11 @@
 
     //     // justify-content: center;
 }
+// .social__link{
+//     &:hover{
+//         fill:$main-color;
+//     }
+// }
 
 // .footer-information{
 //     padding-top: 60px;
@@ -94,11 +99,11 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    &:hover,
-    &:focus {
-        fill: $white-color;
-        background-color: $main-color;
-    }
+    // &:hover,
+    // &:focus {
+    //     fill: $white-color;
+    //     background-color: $main-color;
+    // }
 }
 
 .social__icon {
@@ -120,6 +125,7 @@
 .social__link--dark-theme {
     background: linear-gradient(rgba(255, 255, 255, 0.1),
             rgba(255, 255, 255, 0.1));
+            // z-index: 2;
 
     &:hover,
     &:focus {
@@ -127,6 +133,10 @@
         background-color: $main-color;
     }
 }
+// .newsletter__form{
+//     background-color: transparent;
+//     z-index:1;
+// }
 
 .social-links {
     //    margin-top: 60px;
@@ -179,8 +189,10 @@
 
 .newsletter__email {
     background: transparent;
-    width: 100%;
-    width: 410px;
+    width: 100vw;
+
+
+    max-width: 420px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
@@ -236,6 +248,10 @@
 
 
     }
+    .newsletter__e-mail{
+        width: 100vw;
+        max-width: 450px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -264,23 +280,29 @@
         margin-left: 70px;
     }
 
-    .newsletter {
-        margin-left: -70px;
-        //    margin-left: 70px;
-        // margin-left: -70px;
+    .social__header{
+     margin-right: 77px;
     }
+
+    // .newsletter {
+    //     margin-left: -70px;
+    //     //    margin-left: 70px;
+    //     // margin-left: -70px;
+    // }
 
     .newsletter__input {
         display: flex;
         flex-direction: row;
         margin-top: -20px;
-        margin-left: 227px;
+    
+        // margin-left: 227px;
         //  margin-right: 12px;
         // //   justify-content:center;
         //   align-items: center;
         //   flex-wrap: nowrap;
         //   align-items: baseline;
     }
+  
 
     .newsletter__btn {
         //    margin-bottom: 5px; 
@@ -301,11 +323,17 @@
     .newsletter__header {
 
         text-align: left;
-        margin-left: 230px;
+    }
+    .social__item--modify {
+        margin-right: 50px;
     }
 
-}
 
+
+}
+// .social{
+//     padding-right: 250px;
+// }
 
 
 
