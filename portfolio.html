@@ -20,30 +20,25 @@
     <header class="header">
       <div class="container">
         <nav class="navigation">
-          <a class="logo logo--light-theme " href="./index.html"
-            ><span class="logo__accent-text">Web</span
-            >Studio</a
+          <a class="logo logo--light-theme" href="./index.html"
+            ><span class="logo__accent-text">Web</span>Studio</a
           >
           <ul class="menu list">
             <li class="menu__item">
-              <a class="menu__link" href="./index.html"
-                >Agencja</a
-              >
+              <a class="menu__link" href="./index.html">Agencja</a>
             </li>
             <li class="menu__item menu__item--active">
-                <a class="menu__link menu__link--active" href="#">Portfolio</a> 
+              <a class="menu__link menu__link--active" href="#">Portfolio</a>
             </li>
             <li class="menu__item">
-              <a class="menu__link" href="./index.html"
-                >Kontakt</a
-              >
+              <a class="menu__link" href="./index.html">Kontakt</a>
             </li>
           </ul>
         </nav>
         <ul class="contact list">
           <li class="contact__item">
             <a class="contact__link" href="mailto:info@devstudio.com">
-              <svg class="contact__icon"  width="16" height="12">
+              <svg class="contact__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use></svg
               >info@devstudio.com</a
             >
@@ -56,69 +51,82 @@
             >
           </li>
         </ul>
-      <button class="mobile-btn" type="button" mobile-menu-open>
-          <svg class="icon-mobile-menu"
+        <button class="mobile-btn" type="button" data-mobile-menu-open>
+          <svg
+            class="icon-mobile-menu"
             width="24"
             height="16"
             viewBox="0 0 24 16"
-           
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
               fill-rule="evenodd"
               clip-rule="evenodd"
               d="M0 2.66667V0H24V2.66667H0ZM0 9.33333H24V6.66667H0V9.33333ZM0 16H24V13.3333H0V16Z"
-           
             />
           </svg>
-        </button></div>
-        <div class="mobile-menu is-hidden" mobile-menu>
-             <button type="button" class="close-btn" mobile-menu-close>
-            <svg
-              class="close-btn__icon"
-              width="11"
-              height="11"
-              viewBox="0 0 11 11"
-              xmlns="http://www.w3.org/2000/svg"
+        </button>
+      </div>
+      <div class="mobile-menu is-hidden" data-mobile-menu>
+        <button type="button" class="close-btn" data-mobile-menu-close>
+          <svg
+            class="close-btn__icon"
+            width="11"
+            height="11"
+            viewBox="0 0 11 11"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11 1.10786L9.89214 0L5.5 4.39214L1.10786 0L0 1.10786L4.39214 5.5L0 9.89214L1.10786 11L5.5 6.60786L9.89214 11L11 9.89214L6.60786 5.5L11 1.10786Z"
+            />
+          </svg>
+        </button>
+        <ul class="menu-mobile list">
+          <li class="menu-mobile__item">
+            <a
+              class="menu-mobile__link menu-mobile__link--active"
+              href="./index.html"
+              >Agencja</a
             >
-              <path
-                d="M11 1.10786L9.89214 0L5.5 4.39214L1.10786 0L0 1.10786L4.39214 5.5L0 9.89214L1.10786 11L5.5 6.60786L9.89214 11L11 9.89214L6.60786 5.5L11 1.10786Z"
-              />
-            </svg>
-          </button>
-            <ul class="menu-mobile list">
-                <li class="menu-mobile__item">
-                    <a class="menu-mobile__link menu-mobile__link--active" href="./index.html">Agencja</a>
-                </li>
-                <li class="menu-mobile__item">
-                    <a class="menu-mobile__link link" href="./portfolio.html">Portfolio</a>
-                </li>
-                <li class="menu-mobile__item">
-                    <a class="menu-mobile__link" href="#">Kontakt</a>
-                </li>
-            </ul>
-                    </ul>
-            <ul class="mobile-contacts list">
-                <li class="mobile-contacts__item">
-                    <a class="mobile-contacts__link mobile-contacts_link--current" href="tel:+48111111111">
-                        +48 111 111 111</a>
-                </li>
-                <li class="mobile-contacts__item">
-                    <a class="mobile-contacts__link" href="mailto:info@devstudio.com">
-                        info@devstudio.com</a>
-                </li>
-            </ul>
-            <ul class="mobile-social list">
-                <li class="mobile-social__item">
-                    <a href="" class="mobile-social__link">Instagram</a></li>
-                <li class="mobile-social__item">
-                    <a href="" class="mobile-social__link">Twitter</a></li>
-                <li class="mobile-social__item">
-                    <a href="" class="mobile-social__link">Facebook</a></li>
-                <li class="mobile-social__item">
-                    <a href="" class="mobile-social__link">LinkedIn</a></li>
-            </ul>
-        
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link link" href="./portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li class="menu-mobile__item">
+            <a class="menu-mobile__link" href="#">Kontakt</a>
+          </li>
+        </ul>
+        <ul class="mobile-contacts list">
+          <li class="mobile-contacts__item">
+            <a
+              class="mobile-contacts__link mobile-contacts_link--current"
+              href="tel:+48111111111"
+            >
+              +48 111 111 111</a
+            >
+          </li>
+          <li class="mobile-contacts__item">
+            <a class="mobile-contacts__link" href="mailto:info@devstudio.com">
+              info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="mobile-social list">
+          <li class="mobile-social__item">
+            <a href="" class="mobile-social__link">Instagram</a>
+          </li>
+          <li class="mobile-social__item">
+            <a href="" class="mobile-social__link">Twitter</a>
+          </li>
+          <li class="mobile-social__item">
+            <a href="" class="mobile-social__link">Facebook</a>
+          </li>
+          <li class="mobile-social__item">
+            <a href="" class="mobile-social__link">LinkedIn</a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
@@ -128,29 +136,19 @@
         <div class="container">
           <ul class="buttons list">
             <li class="buttons__item">
-              <button class="buttons__name" type="button">
-                Wszystkie
-              </button>
+              <button class="buttons__name" type="button">Wszystkie</button>
             </li>
             <li class="buttons__item">
-              <button class="buttons__name" type="button">
-                Strony
-              </button>
+              <button class="buttons__name" type="button">Strony</button>
             </li>
             <li class="buttons__item">
-              <button class="buttons__name" type="button">
-                Aplikacje
-              </button>
+              <button class="buttons__name" type="button">Aplikacje</button>
             </li>
             <li class="buttons__item">
-              <button class="buttons__name" type="button">
-                Dizajn
-              </button>
+              <button class="buttons__name" type="button">Dizajn</button>
             </li>
             <li class="buttons__item">
-              <button class="buttons__name" type="button">
-                Marketing
-              </button>
+              <button class="buttons__name" type="button">Marketing</button>
             </li>
           </ul>
         </div>
@@ -174,13 +172,15 @@
                   class="projects__photo"
                   src="./images/projects/projects-img1.jpg"
                   srcset="
-                  ./images/projects/projects-img1.jpg 270w,  ./images/projects/projects-img1@2x.jpg 540w, 
-                  ./images/projects/img1-tablet.jpg 354w, ./images/projects/img1-tablet@2x.jpg 708w,
-                  ./images/projects/projects-img1-mobile.jpg 450w, ./images/projects/projects-img1-mobile@2x.jpg 900w
-                "
-                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                    ./images/projects/projects-img1.jpg           270w,
+                    ./images/projects/projects-img1@2x.jpg        540w,
+                    ./images/projects/img1-tablet.jpg             354w,
+                    ./images/projects/img1-tablet@2x.jpg          708w,
+                    ./images/projects/projects-img1-mobile.jpg    450w,
+                    ./images/projects/projects-img1-mobile@2x.jpg 900w
+                  "
+                  sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
                   alt="Zdjęcie strony internetowej"
-               
                 />
               </div>
               <h3 class="projects__title">Technocrack</h3>
@@ -200,19 +200,19 @@
                 <img
                   class="projects__photo"
                   src="./images/projects/projects-img2.jpg"
-                       srcset="
-                  ./images/projects/projects-img2.jpg 270w,  ./images/projects/projects-img2@2x.jpg 540w, 
-                  ./images/projects/img2-tablet.jpg 354w, ./images/projects/img2-tablet@2x.jpg 708w,
-                  ./images/projects/img2-mobile.jpg 450w, ./images/projects/img2-mobile@2x.jpg 900w
-                "
-                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                  srcset="
+                    ./images/projects/projects-img2.jpg    270w,
+                    ./images/projects/projects-img2@2x.jpg 540w,
+                    ./images/projects/img2-tablet.jpg      354w,
+                    ./images/projects/img2-tablet@2x.jpg   708w,
+                    ./images/projects/img2-mobile.jpg      450w,
+                    ./images/projects/img2-mobile@2x.jpg   900w
+                  "
+                  sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
                   alt="Grafika koszykarzy New Orlean vs Golden Star"
-              
                 />
               </div>
-              <h3 class="projects__title">
-                Grafika New Orlean vs Golden Star
-              </h3>
+              <h3 class="projects__title">Grafika New Orlean vs Golden Star</h3>
               <p class="projects__description">Dizajn</p>
             </li>
             <li class="projects__item">
@@ -228,15 +228,16 @@
                 <img
                   class="projects__photo"
                   src="./images/projects/projects-img3.jpg"
-                     srcset="
-                  ./images/projects/projects-img3.jpg 270w,  ./images/projects/projects-img3@2x.jpg 540w, 
-                  ./images/projects/img3-tablet.jpg 354w, ./images/projects/img3-tablet@2x.jpg 708w,
-                  ./images/projects/img3-mobile.jpg 450w, ./images/projects/img3-mobile@2x.jpg 900w
-                "
-                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
-                  
+                  srcset="
+                    ./images/projects/projects-img3.jpg    270w,
+                    ./images/projects/projects-img3@2x.jpg 540w,
+                    ./images/projects/img3-tablet.jpg      354w,
+                    ./images/projects/img3-tablet@2x.jpg   708w,
+                    ./images/projects/img3-mobile.jpg      450w,
+                    ./images/projects/img3-mobile@2x.jpg   900w
+                  "
+                  sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
                   alt="Logo restauracji Seafood"
-             
                 />
               </div>
               <h3 class="projects__title">Restauracja Seafood</h3>
@@ -255,12 +256,15 @@
                 <img
                   class="projects__photo"
                   src="./images/projects/projects-img4.jpg"
-                     srcset="
-                  ./images/projects/projects-img4.jpg 270w,  ./images/projects/projects-img4@2x.jpg 540w, 
-                  ./images/projects/img4-tablet.jpg 354w, ./images/projects/img4-tablet@2x.jpg 708w,
-                  ./images/projects/img4-mobile.jpg 450w, ./images/projects/img4-mobile@2x.jpg 900w
-                "
-                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                  srcset="
+                    ./images/projects/projects-img4.jpg    270w,
+                    ./images/projects/projects-img4@2x.jpg 540w,
+                    ./images/projects/img4-tablet.jpg      354w,
+                    ./images/projects/img4-tablet@2x.jpg   708w,
+                    ./images/projects/img4-mobile.jpg      450w,
+                    ./images/projects/img4-mobile@2x.jpg   900w
+                  "
+                  sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
                   alt="Zdjęcie przedstawiające słuchawki"
                 />
               </div>
@@ -280,14 +284,16 @@
                 <img
                   class="projects__photo"
                   src="./images/projects/projects-img5.jpg"
-                     srcset="
-                  ./images/projects/projects-img5.jpg 270w,  ./images/projects/projects-img5@2x.jpg 540w, 
-                  ./images/projects/img5-tablet.jpg 354w, ./images/projects/img5-tablet@2x.jpg 708w,
-                  ./images/projects/img5-mobile.jpg 450w, ./images/projects/img5-mobile@2x.jpg 900w
-                "
-                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                  srcset="
+                    ./images/projects/projects-img5.jpg    270w,
+                    ./images/projects/projects-img5@2x.jpg 540w,
+                    ./images/projects/img5-tablet.jpg      354w,
+                    ./images/projects/img5-tablet@2x.jpg   708w,
+                    ./images/projects/img5-mobile.jpg      450w,
+                    ./images/projects/img5-mobile@2x.jpg   900w
+                  "
+                  sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
                   alt="Zdjęcie dwóch pudełek"
-              
                 />
               </div>
               <h3 class="projects__title">Projekt Boxes</h3>
@@ -306,19 +312,19 @@
                 <img
                   class="projects__photo"
                   src="./images/projects/projects-img6.jpg"
-                     srcset="
-                  ./images/projects/projects-img6.jpg 270w,  ./images/projects/projects-img6@2x.jpg 540w, 
-                  ./images/projects/img6-tablet.jpg 354w, ./images/projects/img6-tablet@2x.jpg 708w,
-                  ./images/projects/img6-mobile.jpg 450w, ./images/projects/img6-mobile@2x.jpg 900w
-                "
-                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                  srcset="
+                    ./images/projects/projects-img6.jpg    270w,
+                    ./images/projects/projects-img6@2x.jpg 540w,
+                    ./images/projects/img6-tablet.jpg      354w,
+                    ./images/projects/img6-tablet@2x.jpg   708w,
+                    ./images/projects/img6-mobile.jpg      450w,
+                    ./images/projects/img6-mobile@2x.jpg   900w
+                  "
+                  sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
                   alt="Zdjęcie strony internetowej Inspiartion has no Borders"
-                 
                 />
               </div>
-              <h3 class="projects__title">
-                Inspiration has no Borders
-              </h3>
+              <h3 class="projects__title">Inspiration has no Borders</h3>
               <p class="projects__description">Strona internetowa</p>
             </li>
             <li class="projects__item">
@@ -334,14 +340,16 @@
                 <img
                   class="projects__photo"
                   src="./images/projects/projects-img7.jpg"
-                     srcset="
-                  ./images/projects/projects-img7.jpg 270w,  ./images/projects/projects-img7@2x.jpg 540w, 
-                  ./images/projects/img7-tablet.jpg 354w, ./images/projects/img7-tablet@2x.jpg 708w,
-                  ./images/projects/img7-mobile.jpg 450w, ./images/projects/img7-mobile@2x.jpg 900w
-                "
-                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                  srcset="
+                    ./images/projects/projects-img7.jpg    270w,
+                    ./images/projects/projects-img7@2x.jpg 540w,
+                    ./images/projects/img7-tablet.jpg      354w,
+                    ./images/projects/img7-tablet@2x.jpg   708w,
+                    ./images/projects/img7-mobile.jpg      450w,
+                    ./images/projects/img7-mobile@2x.jpg   900w
+                  "
+                  sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
                   alt="Zdjęcie przedstawiające dwie strony magazynu"
-                
                 />
               </div>
               <h3 class="projects__title">Magazyn Limited Edition</h3>
@@ -360,14 +368,16 @@
                 <img
                   class="projects__photo"
                   src="./images/projects/projects-img8.jpg"
-                     srcset="
-                  ./images/projects/projects-img8.jpg 270w,  ./images/projects/projects-img8@2x.jpg 540w, 
-                  ./images/projects/img8-tablet.jpg 354w, ./images/projects/img8-tablet@2x.jpg 708w,
-                  ./images/projects/img8-mobile.jpg 450w, ./images/projects/img8-mobile@2x.jpg 900w
-                "
-                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                  srcset="
+                    ./images/projects/projects-img8.jpg    270w,
+                    ./images/projects/projects-img8@2x.jpg 540w,
+                    ./images/projects/img8-tablet.jpg      354w,
+                    ./images/projects/img8-tablet@2x.jpg   708w,
+                    ./images/projects/img8-mobile.jpg      450w,
+                    ./images/projects/img8-mobile@2x.jpg   900w
+                  "
+                  sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
                   alt="Zdjęcie etykiety"
-        
                 />
               </div>
               <h3 class="projects__title">Projekt LAB</h3>
@@ -386,14 +396,16 @@
                 <img
                   class="projects__photo"
                   src="./images/projects/projects-img9.jpg"
-                     srcset="
-                  ./images/projects/projects-img9.jpg 270w,  ./images/projects/projects-img9@2x.jpg 540w, 
-                  ./images/projects/img9-tablet.jpg 354w, ./images/projects/img9-tablet@2x.jpg 708w,
-                  ./images/projects/img9-mobile.jpg 450w, ./images/projects/img9-mobile@2x.jpg 900w
-                "
-                sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
+                  srcset="
+                    ./images/projects/projects-img9.jpg    270w,
+                    ./images/projects/projects-img9@2x.jpg 540w,
+                    ./images/projects/img9-tablet.jpg      354w,
+                    ./images/projects/img9-tablet@2x.jpg   708w,
+                    ./images/projects/img9-mobile.jpg      450w,
+                    ./images/projects/img9-mobile@2x.jpg   900w
+                  "
+                  sizes="(min-width: 1200px) 270px, (min-width: 768px) 354px, (min-width: 480px) 450px, 100vw"
                   alt="Aplikacja Growing Business wyświetlająca się na laptopie"
-                 
                 />
               </div>
               <h3 class="projects__title">Growing Business</h3>
@@ -486,6 +498,6 @@
         </div>
       </div>
     </footer>
-      <script src="./js/mobile-menu.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
